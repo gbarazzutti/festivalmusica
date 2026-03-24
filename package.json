@@ -1,7 +1,8 @@
 {
   "name": "festivalmusica",
   "version": "1.0.0",
-  "description": "learning sass and npm",
+  "description": "learning SASS and NPM",
+  "type":"module",
   "keywords": [
     "SASS",
     "NPM",
@@ -17,12 +18,13 @@
   },
   "license": "ISC",
   "author": "Guillermo Barazzutti",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola"
   },
   "devDependencies": {
+    "gulp": "^5.0.1",
     "sass": "^1.98.0"
   }
 }
