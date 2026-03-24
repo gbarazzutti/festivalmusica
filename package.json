@@ -1,0 +1,25 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "learning sass and npm",
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "homepage": "https://github.com/gbarazzutti/festivalmusica#readme",
+  "bugs": {
+    "url": "https://github.com/gbarazzutti/festivalmusica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbarazzutti/festivalmusica.git"
+  },
+  "license": "ISC",
+  "author": "Guillermo Barazzutti",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
