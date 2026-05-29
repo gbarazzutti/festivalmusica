@@ -20,7 +20,7 @@
   "author": "Guillermo Barazzutti",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css",
+    "sass": "sass --watch --load-path=src/scss src/scss:build/css",
     "dev": "gulp dev"
   },
   "devDependencies": {
