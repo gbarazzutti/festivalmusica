@@ -422,7 +422,7 @@ body > section {
 }
 .video .overlay {
   position: absolute;
-  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(56.7272727273, 22.7878787879, 73.2121212121, 0.9));
+  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(93.6, 37.6, 120.8, 0.9));
   inset: 0;
   display: flex;
   align-items: center;
@@ -531,14 +531,14 @@ body > section {
   background-color: #fdda00;
 }
 .bg-amarillo li:nth-child(odd) {
-  background-color: rgb(255, 222.9743083004, 23.5);
+  background-color: rgb(255, 221.2243083004, 10.85);
 }
 
 .bg-verde {
   background-color: #4CB8B3;
 }
 .bg-verde li:nth-child(odd) {
-  background-color: rgb(94.258, 191.242, 186.752);
+  background-color: rgb(84.95, 187.55, 182.8);
 }
 
 .contenedor-boletos {
@@ -614,7 +614,7 @@ body > section {
   transition: background-color 0.3s ease-in-out;
 }
 .pase-footer p:hover {
-  background-color: rgb(56.7272727273, 22.7878787879, 73.2121212121);
+  background-color: rgb(93.6, 37.6, 120.8);
 }
 
 .footer {
@@ -626,5 +626,3 @@ body > section {
   text-align: center;
   margin: 0;
 }
-
-/*# sourceMappingURL=app.css.map */
