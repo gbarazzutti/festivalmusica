@@ -331,6 +331,7 @@ body.overflow-hidden {
 }
 
 p {
+  font-size: 2rem;
   color: #000000;
   line-height: 1.5;
 }
@@ -434,7 +435,7 @@ body > section {
 }
 .video .overlay {
   position: absolute;
-  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(93.6, 37.6, 120.8, 0.9));
+  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(56.7272727273, 22.7878787879, 73.2121212121, 0.9));
   inset: 0;
   display: flex;
   align-items: center;
@@ -494,7 +495,8 @@ body > section {
 .lineup {
   background-color: #F53756;
 }
-.lineup h3, .lineup .dia {
+.lineup h3,
+.lineup .dia {
   text-align: center;
   color: #FFFFFF;
 }
@@ -535,7 +537,7 @@ body > section {
   padding: 2.5rem;
   font-weight: 700;
 }
-.calendario span {
+.calendario li span {
   font-weight: 400;
 }
 
@@ -543,14 +545,14 @@ body > section {
   background-color: #fdda00;
 }
 .bg-amarillo li:nth-child(odd) {
-  background-color: rgb(255, 221.2243083004, 10.85);
+  background-color: rgb(255, 222.9743083004, 23.5);
 }
 
 .bg-verde {
   background-color: #4CB8B3;
 }
 .bg-verde li:nth-child(odd) {
-  background-color: rgb(84.95, 187.55, 182.8);
+  background-color: rgb(94.258, 191.242, 186.752);
 }
 
 .galeria {
@@ -587,7 +589,6 @@ body > section {
 .galeria-imagenes img {
   height: 20rem;
   object-fit: cover;
-  cursor: pointer;
 }
 
 .modal {
@@ -608,7 +609,7 @@ body > section {
 .btn-cerrar {
   width: 4rem;
   height: 4rem;
-  border-radius: 50rem;
+  border-radius: 50%;
   background-color: #FFFFFF;
   border: none;
   color: #000000;
@@ -704,10 +705,9 @@ body > section {
   padding: 1rem 0;
   border-radius: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
 }
 .pase-footer p:hover {
-  background-color: rgb(93.6, 37.6, 120.8);
+  background-color: rgb(56.7272727273, 22.7878787879, 73.2121212121);
 }
 
 .footer {
@@ -715,7 +715,7 @@ body > section {
   padding: 2rem 0;
 }
 .footer p {
+  margin: 0;
   color: #FFFFFF;
   text-align: center;
-  margin: 0;
-}
+}/*# sourceMappingURL=app.css.map */
